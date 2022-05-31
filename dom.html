@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1 class="heading" id="header">Javascript HTML DOM</h1>
+  <p id="subtitle">3</p>
+  <section id="section_1">
+    <h1>This is a section</h1>
+  </section>
+  <section id="section_2">
+    <h1>This is a  form section</h1>
+    <form action="#" method="get" id="reg_form" name="reg_form" onsubmit="return validator()">
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" class="fullname">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" class="phone">
+      <label for="city">City</label>
+      <input type="city" id="city" class="city">
+
+      <button type="submit">Submit Form</button>
+    </form>
+  </section>
+  <section>
+    <h1>Javascript Events</h1>
+    <ol>
+      <li>OnClick Event</li>
+      <button id="click_btn" onclick="return changeBkgColor()">
+        Click Me
+      </button>
+      <li>OnChange Event</li>
+      <input type="file" name="file" id="file">
+    </ol>
+  </section>
+  <script src="./dom.js"></script>
+</body>
+</html>

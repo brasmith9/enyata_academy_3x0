@@ -1,0 +1,22 @@
+DOM - Document Object  Model
+
+
+       Document
+        <html>
+<head>---------<body>
+ <title>      href--<a><h1>
+title          links text
+
+The DOM is a valid Javascript Object which has properties and methods.
+
+Javasript can:
+1. Change all the html elements in the page.
+2. Change all the HTML attributes in the page. (link, class, id, src, href, title, etc.)
+3. Change all the CSS styles in the page.
+4. Remove existing HTML elements and attributes.
+5. Add new HTML elements and attributes.
+6. React to all the events in the page. (Click, type, hover, submit etc)
+7. Create new HTML events in the page.
+
+
+//Events

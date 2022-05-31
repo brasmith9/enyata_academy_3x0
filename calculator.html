@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10em;
+    }
+    .btn-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    #btn {
+      background-color: #008537;
+
+    }
+    #btn2 {
+      background-color: #a60000;
+    }
+    #btn, #btn2 {
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-top: 1em;
+      cursor: pointer;
+      box-shadow: none;
+      margin: .5em;
+      border: none;
+    }
+    #btn:hover {
+      background-color: #6cc993;
+    }
+    .keys {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+      margin-top: 1em;
+      width: 430px;
+      height: 500px;
+    }
+    button{
+      width: 100px;
+      height: 50px;
+      border-radius: 6%;
+      margin: .5em;
+      cursor: pointer;
+      box-shadow: none;
+      border: none;
+    }
+    .calculator{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      border: #000 1px solid;
+    }
+    .value_display{
+      text-align: right;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container">
+      <h1 id="counter"></h1>
+      <div class="btn-wrapper">
+        <button id="btn">Increase</button>
+        <button id="btn2">Decrease</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="calculator">
+        <div class="display">
+          <h1 id="value_display">0</h1>
+        </div>
+        <div class="keys">
+          <button data-action="clear">AC</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>0</button>
+          <button data-action="decimal">.</button>
+          <button class="key--operator" data-action="add">+</button>
+          <button class="key--operator" data-action="subtract">-</button>
+          <button class="key--operator" data-action="multiply">&times;</button>
+          <button class="key--operator" data-action="divide">÷</button>
+          <button class="key--equal" data-action="calculate">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./counter.js"></script>
+</body>
+</html>
