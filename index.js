@@ -1,4 +1,5 @@
 //Objects
+
 //Boolean
 let isDone = false;
 //Strings
@@ -9,6 +10,7 @@ let myNumber = 10;
 let cars;
 //Null
 let course = null;
+
 course = "Web Development";
 
 //Objects

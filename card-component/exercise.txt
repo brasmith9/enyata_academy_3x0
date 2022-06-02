@@ -1,0 +1,6 @@
+Solution 1
+Hide the other two cars (Auth Card and the final card) Use the style property to set its display
+
+
+Solution 2
+Make use of margins to hide the other two cards
