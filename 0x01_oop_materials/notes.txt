@@ -1,0 +1,63 @@
+Object Oriented Programming
+Is a style of Programming centered around the idea of objects.
+It is not a programming language, but rather a way of thinking about programming.
+There are a lot of languages that are oriented towards object oriented programming,
+but they are not object oriented programming languages.
+
+eg.
+C#
+Java
+Python
+Ruby
+JavaScript
+
+Most of the popular frameworks are designed using the OOP principles.
+eg. Django(Python), Angular, Laravel(PHP), Rails, Bootstrap, ASP.net, Express.js
+
+4 Pillars/Concepts of OOP
+
+- Encapsulation
+  1. Reduces complexity
+  2. Increase reusability
+- Abstraction
+  1. Reduces complexity
+  2. Isolates the impact of change
+- Inheritance
+  1. Eliminate redundant code
+- Poly-morphism
+  many form
+  1. Refactor switch/case, if...else statements
+
+
+Procedural Programming
+  Generally, the code is written in a sequence of steps.
+  Data stored in variables and functions to act on them.
+  Duplicate code is a major issure.
+
+Solution
+ OPP grouping the methods and properties into a unit.
+  eg. localStorage
+
+  
+NB: The best functions are those with no parameters.
+
+An object with more than one method has 'behaviour'
+
+Ways of Creating Objects
+1. Object Literals
+2. Factory Functions
+3. Constructor Functions
+4. Class
+
+Unlike Functions, Class declarations must be defined before they can be used/contructed.
+
+Value vs Reference Types
+
+Value Types         Reference Types
+Number             Object
+String             Function
+Boolean            Array
+Undefined          
+Null              
+
+NB: Primitives are copied by value whiiles objects are copied by reference
